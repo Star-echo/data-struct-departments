@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Speci</class>
+ <widget class="QWidget" name="Speci">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #73d2de</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+            background-color:#97d8c4;
+            order-style:outset;
+            border-width:2px;
+            border-radius:6px;
+            border-color:white;
+            font:bold 20px;
+            color:rgba(0,0,0,200);
+            padding:6px;
+            }
+QPushButton:pressed{
+            background-color:#b2f7ef;
+            border-color:white;
+            border-style:inset;
+            color:rgba(0,0,0,100);
+            }
+ QPushButton:hover{
+            background-color:#b2f7ef;
+            border-color:white;
+            color:rgba(0,0,0,200);
+            }</string>
+   </property>
+   <property name="text">
+    <string>添加人员</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

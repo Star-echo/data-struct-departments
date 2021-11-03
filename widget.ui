@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>869</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #778da9</string>
+  </property>
+  <widget class="QPushButton" name="a1">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>138</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+            background-color:#97d8c4;
+            order-style:outset;
+            border-width:2px;
+            border-radius:6px;
+            border-color:white;
+            font:bold 20px;
+            color:rgba(0,0,0,200);
+            padding:6px;
+            }
+QPushButton:pressed{
+            background-color:#b2f7ef;
+            border-color:white;
+            border-style:inset;
+            color:rgba(0,0,0,100);
+            }
+ QPushButton:hover{
+            background-color:#b2f7ef;
+            border-color:white;
+            color:rgba(0,0,0,200);
+            }</string>
+   </property>
+   <property name="text">
+    <string>添加顶层部门</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+            background-color:#97d8c4;
+            order-style:outset;
+            border-width:2px;
+            border-radius:6px;
+            border-color:white;
+            font:bold 20px;
+            color:rgba(0,0,0,200);
+            padding:6px;
+            }
+QPushButton:pressed{
+            background-color:#b2f7ef;
+            border-color:white;
+            border-style:inset;
+            color:rgba(0,0,0,100);
+            }
+ QPushButton:hover{
+            background-color:#b2f7ef;
+            border-color:white;
+            color:rgba(0,0,0,200);
+            }</string>
+   </property>
+   <property name="text">
+    <string>添加部门</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="who">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>20</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+font:bold 20px;
+background-color:#acecf7;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="find">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+            background-color:#97d8c4;
+            order-style:outset;
+            border-width:2px;
+            border-radius:6px;
+            border-color:white;
+            font:bold 20px;
+            color:rgba(0,0,0,200);
+            padding:6px;
+            }
+QPushButton:pressed{
+            background-color:#b2f7ef;
+            border-color:white;
+            border-style:inset;
+            color:rgba(0,0,0,100);
+            }
+ QPushButton:hover{
+            background-color:#b2f7ef;
+            border-color:white;
+            color:rgba(0,0,0,200);
+            }</string>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
